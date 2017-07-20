@@ -45,7 +45,7 @@ func quicksort(numeros []int) []int {
 
 func particionar(
 	numeros []int,
-	pivo int)(menores []int, maiores []int) 
+	pivo int) (menores []int, maiores []int) {
 	
 	for _, n := range numeros {
 	if n <= pivo {
@@ -56,3 +56,4 @@ func particionar(
 }
 
 return menores, maiores
+}
